@@ -1,0 +1,238 @@
+.header {
+  background-color: orange;
+  background-size: cover;
+  color:blue;
+  height: 300px;
+}
+.header-logo{
+  padding-top: 25px;
+  text-align: center;
+    width: auto;
+    height: 100px;
+    position: relative;
+    animation: mymove infinite;
+    animation-duration: 3s;
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+
+ul {
+  list-style: none;
+  margin: auto;
+  align-self: center;
+}
+li{
+  margin: auto;
+  align-self: center;
+}
+img {
+ width: 200px;
+ height : 200px;
+}
+
+.main a:hover {
+  background-color: red;
+}
+
+
+.copy-container h2 {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.main {
+  margin:auto;
+  padding: 100px 80px;
+}
+.section-makanan {
+  border-bottom: 2px solid #dee7ec;
+  width:auto;
+}
+
+.section-minuman {
+  border-bottom: 2px solid #dee7ec;
+  width :auto;
+}
+
+.footer {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+
+.makanan1 {
+  display: flex;
+}
+
+.makanan1 li {
+  flex: wrap;
+  padding: 20px 30px;
+}
+
+
+.makanan2 {
+  display: flex;
+  
+}
+
+.makanan2 li {
+  flex: wrap;
+  padding: 20px 30px;
+}
+
+.makanan3 {
+  display: flex;
+  
+}
+
+.makanan3 li {
+  flex: wrap;
+  padding: 20px 30px;
+}
+
+
+.minuman1 {
+  display: flex;
+}
+.minuman1 li {
+  flex: wrap;
+  padding: 20px 30px;
+}
+.minuman2 {
+  display: flex;
+}
+.minuman2 li {
+  flex: wrap;
+  padding: 20px 30px;
+}
+
+@media (max-width: 1000px) {
+  .makanan1 {
+    flex-wrap: wrap;
+  }
+  .makanan1 li {
+    margin-left:-5;
+    width: 30%;
+  }
+  .makanan2{
+    flex-wrap: wrap
+  }
+  .makanan2 li {
+    margin-left:-5;
+    width: 30%;
+  }
+  .makanan3{
+    flex-wrap: wrap
+  }
+  .makanan3 li {
+    margin-left:-5;
+    width: 30%;
+  }.minuman1{
+    flex-wrap: wrap;
+  }
+  .minuman1 li {
+      margin-left:-5;
+    width: 30%;
+  }.minuman2{
+    flex-wrap: wrap;
+  }
+  .minuman2 li {
+      margin-left:-5;
+    width: 30%;
+  }
+}
+
+
+@media (max-width: 670px) {
+  .makanan1 {
+    flex-direction: column;
+  }
+  .makanan1 li {
+    padding :5px 0px;
+   margin-top :0;
+   margin-bottom:0;
+   margin-right:235;
+   margin-left:-10;
+  }
+  .makanan2{
+    flex-direction: column;
+  }
+  .makanan2 li {
+      padding :5px 0px;
+   margin-top :0;
+   margin-bottom:0;
+   margin-right:235;
+   margin-left:-10;
+  }
+  .makanan3{
+    flex-direction: column;
+  }
+  .makanan3 li {
+      padding :5px 0px;
+   margin-top :0;
+   margin-bottom:0;
+   margin-right:235;
+   margin-left:-10;
+  }.minuman1{
+    flex-direction: column;
+  }
+  .minuman1 li {
+  padding :5px 0px;
+   margin-top :0;
+   margin-bottom:0;
+   margin-right:235;
+   margin-left:-10;
+  }.minuman2{
+    flex-direction: column;
+  }
+  .minuman2 li {
+   padding :5px 0px;
+   margin-top :0;
+   margin-bottom:0;
+   margin-right:235;
+   margin-left:-10;
+  }
+}
+
+.footer{
+  height: 100px;
+}
+.footer-logo{
+display: flex;
+}
+.footer-logo li {
+  flex: wrap;
+  margin-bottom: 40px;
+}
+
+.bawah {
+  display: flex;
+}
+.bawah li {
+  flex: wrap;
+}
+.bawah li a {
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 8px;
+} 
+
+.facebook {
+  background-color: #3b5998;
+  background-size: 10px;
+}
+
+.instagram{
+  background-color: #3f729b;
+}
+
+.whatsapp {
+  background-color: green;
+}
+
+.bawah li a:hover {
+  opacity: 1;
+}
