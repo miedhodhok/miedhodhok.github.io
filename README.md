@@ -1,1 +1,0 @@
-# miedhodhok.github.io
